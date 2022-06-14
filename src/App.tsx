@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import TelaHome from './telas/TelaHome';
 import TelaLogin from './telas/TelaLogin';
+import Cabecalho from './componentes/Cabecalho';
 
 function App() {
   return (

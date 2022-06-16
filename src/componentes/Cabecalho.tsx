@@ -1,13 +1,12 @@
 import logotipoImage from './logotipo.jpeg';
-import './App.css';
+import './Cabecalho.css';
 
 const Cabecalho = function () {
     return (
-      <header>
-          Cabeçalho
-          <img src={logotipoImage} alt="" />
-        </header>
-
+      <header className='Cabecalho'>
+        <img src={logotipoImage} alt="" />
+      </header>
+      
     );
   };
   

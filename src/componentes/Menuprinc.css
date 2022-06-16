@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bangers&family=Blaka&family=Kaushan+Script&family=Merienda&family=Permanent+Marker&family=Righteous&display=swap');
+                
         body {
             width: 100%;
             height: 100%;
@@ -9,7 +10,7 @@
             }
             .menu-principal {
             width: 100%;
-            background-color: #000000;
+            background-color: #ffffff;
             height: 110px;
             }
             main, .content {
@@ -43,7 +44,7 @@
             }
             .menu ul li {
                 display: inline-block;
-                color: #8b8b8b;
+                color: #fffefe;
                 margin-left: 15px;
                 height: 50px;
             }
@@ -57,7 +58,7 @@
                 
             }
             
-            .menu ul li a {
+            .menu ul li a { 
                 color: #000000;
                 text-decoration: none;
                 font-size: 18px;

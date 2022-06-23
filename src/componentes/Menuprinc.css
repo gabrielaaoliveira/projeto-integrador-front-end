@@ -48,6 +48,12 @@
                 margin-left: 15px;
                 height: 50px;
             }
+
+            .Cabecalho {
+                width: 100%;
+                background-color: vp,#000000;
+                height: 110px;
+                }
             
             .menu ul li:hover {
                 border-bottom: 3px solid #00bac6;

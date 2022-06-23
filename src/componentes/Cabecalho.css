@@ -1,5 +1,17 @@
 .Cabecalho {
     width: 100%;
     background-color: #000000;
-    height: 110px;
-    }
+    height: 84px;
+
+    display: flex;
+}
+
+.Logotipo {
+    width: 193px;
+    flex-grow: 0;
+}
+
+.Logotipo img {
+    width: 193px;
+    height: 84px;
+}

@@ -1,0 +1,27 @@
+.CampoBusca {
+    background-color: #fff;
+    height: 24px;
+    margin: 0px 8px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.CampoBusca input {
+    border: none;
+    /*
+    background-image: url(./icone-search.png);
+    background-repeat: no-repeat;
+    height: 12px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 96%;
+    border: 1px solid #000000;
+    */
+}
+
+.CampoBusca button {
+    width: 18px;
+    height: 18px;
+}

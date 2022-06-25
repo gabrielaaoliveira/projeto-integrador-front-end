@@ -1,9 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import TelaHome from './telas/TelaHome';
-import Cabecalho from './componentes/Cabecalho';
 import TelaPaciente from './telas/TelaPaciente';
-import Autoajuda from './componentes/Autoajuda';
+import TelaAutoajuda from './telas/TelaAutoajuda';
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
           <Routes>
             <Route path="/" element={<TelaHome />} />
             <Route path="/paciente" element={<TelaPaciente />} />
-            <Route path="/autoajuda" element={<Autoajuda/>} />
+            <Route path="/autoajuda" element={<TelaAutoajuda/>} />
           </Routes>
         </BrowserRouter>
     </div>

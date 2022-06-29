@@ -1,17 +1,19 @@
 .Cabecalho {
+    box-sizing: border-box;
     width: 100%;
     background-color: #000000;
-    height: 84px;
-
+    height: 86px;
+    padding: 20px;
     display: flex;
+    align-items: flex-end;
 }
 
-.Logotipo {
-    width: 193px;
+.Cabecalho .Logotipo {
+
     flex-grow: 0;
 }
 
-.Logotipo img {
-    width: 193px;
-    height: 84px;
+.Cabecalho .Logotipo img {
+    width: auto;
+    height: 46px;
 }

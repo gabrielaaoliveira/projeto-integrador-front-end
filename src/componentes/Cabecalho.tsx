@@ -10,6 +10,7 @@ const Cabecalho = function () {
           <img src={logotipoImage} alt="" />
         </a>
         <Menu />
+        <CampoBusca/>
       </header>
       
     );

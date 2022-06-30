@@ -1,0 +1,27 @@
+.TelaMapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TelaMapa .Mapas {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    column-gap: 8px;
+    row-gap: 8px;
+    flex-wrap: wrap;
+}
+
+.TelaMapa .Mapas .Mapa {
+    width: calc(33.33% - 8px);
+    border: 1px solid #000;
+}
+
+.TelaMapa .Mapas .Mapa .Imagem {
+    width: 100%;
+}
+
+.TelaMapa .Mapas .Mapa .Imagem img {
+    width: 100%;
+}

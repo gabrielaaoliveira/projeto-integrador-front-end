@@ -14,8 +14,16 @@
 }
 
 .TelaMapa .Mapas .Mapa {
+    box-sizing: border-box;
     width: calc(33.33% - 8px);
-    border: 1px solid #000;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px #999;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
 }
 
 .TelaMapa .Mapas .Mapa .Imagem {
@@ -24,4 +32,9 @@
 
 .TelaMapa .Mapas .Mapa .Imagem img {
     width: 100%;
+    height: auto;
+}
+
+.TelaMapa .Mapas .Mapa .Texto {
+    text-align: justify;
 }

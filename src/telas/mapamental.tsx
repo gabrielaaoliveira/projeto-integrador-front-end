@@ -64,7 +64,7 @@ const Mapa = function () {
                         <div className='Imagem'>
                             <img src= {toc} alt='Transtorno obcessivo-compusivo' />
                         </div>
-                        <Indice percentual={4.7} corFundo={'#fcc'} corPercentual={'#f00'} />
+                        <Indice percentual={2.0} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
                     
                         </div>
@@ -79,7 +79,7 @@ const Mapa = function () {
                         <div className='Imagem'>
                             <img src={bornout} alt='FOBIA' />
                         </div>
-                        <Indice percentual={86} corFundo={'#fcc'} corPercentual={'#f00'} />
+                        <Indice percentual={30} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
                     
                         </div>
@@ -94,7 +94,7 @@ const Mapa = function () {
                         <div className='Imagem'>
                             <img src= {alimentar} alt='Depressão' />
                         </div>
-                        <Indice percentual={5.8} corFundo={'#fcc'} corPercentual={'#f00'} />
+                        <Indice percentual={4.7} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
                     
                         </div>

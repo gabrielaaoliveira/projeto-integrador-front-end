@@ -6,7 +6,7 @@ import CampoBusca from './CampoBusca';
 const Cabecalho = function () {
     return (
       <header className='Cabecalho'>
-        <a href="" className='Logotipo'>
+        <a href="/" className='Logotipo'>
           <img src={logotipoImage} alt="" />
         </a>
         <Menu />
@@ -17,3 +17,5 @@ const Cabecalho = function () {
   };
   
   export default Cabecalho;
+
+  

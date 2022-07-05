@@ -13,6 +13,7 @@ const Tela: FunctionComponent<Props> = function(props) {
             <main>
                 {props.children}
             </main>
+            
         </div>
     );
 };

@@ -3,6 +3,7 @@
   justify-content: flex-start;
   border-radius: 4px;
   overflow: hidden;
+  column-gap: 4px;
 }
 
 .Indice .Percentual {

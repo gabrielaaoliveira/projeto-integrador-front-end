@@ -4,6 +4,8 @@ import TelaHome from './telas/TelaHome';
 import TelaPaciente from './telas/TelaPaciente';
 import TelaAutoajuda from './telas/TelaAutoajuda';
 import Mapa from './telas/mapamental';
+import Menu from './componentes/Menu';
+import Telainicial from './componentes/Telainicial';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
             <Route path="/paciente" element={<TelaPaciente />} />
             <Route path="/autoajuda" element={<TelaAutoajuda/>} />
             <Route path="/mapa-mental" element={<Mapa />} />
+            <Route path="/Tela" element={<Telainicial />} />
           </Routes>
         </BrowserRouter>
     </div>

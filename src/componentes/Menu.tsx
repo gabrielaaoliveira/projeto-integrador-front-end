@@ -7,7 +7,7 @@ const Menu = function() {
             <a className="MenuItem" href="">Mapa mental</a>
             <a className="MenuItem" href="/autoajuda">Auto-ajuda</a>
             <a className="MenuItem" href="">Psicólogos</a>
-            <a className="MenuItem" href="">Fale Conosco</a>
+            <a className="MenuItem" href="">Pacientes</a>
           
         </nav>
     );

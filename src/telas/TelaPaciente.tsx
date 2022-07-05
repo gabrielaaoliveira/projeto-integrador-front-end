@@ -20,7 +20,7 @@ const TelaPaciente = function() {
                                 48652-00 / CRP 
                                 Duração: 50 minutos - Sessão R$75,00
                                 _________________________________________
-                                
+
                             </p>
                         </div>
                     </div>

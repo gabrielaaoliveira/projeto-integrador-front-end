@@ -55,7 +55,7 @@ const Mapa = function () {
                         <div className='Texto'>
                             <p>
                                 <h4>DEPRESSÃO</h4>
-                               
+                                A depressão é uma doença psiquiátrica crônica que tem como sintomas tristeza profunda, perda de interesse, ausência de ânimo e oscilações de humor. Muitas vezes é confundida com ansiedade e pode levar a pensamentos suicidas. Assim, é essencial diagnosticar a doença e iniciar acompanhamento médico. 
                             </p>
                         </div>
                     </div>
@@ -71,7 +71,7 @@ const Mapa = function () {
                         <div className='Texto'>
                             <p>
                                 <h4>TOC</h4>
-                               
+                                TOC, ou transtorno obsessivo-compulsivo, é um distúrbio psiquiátrico de ansiedadeque que tem como principal característica a presença de crises recorrentes de obsessões e compulsões.  
                             </p>
                         </div>
                     </div>
@@ -86,6 +86,11 @@ const Mapa = function () {
                         <div className='Texto'>
                             <p>
                                 <h4>BORNOUT</h4>
+                                Burnout é uma forma de exaustão causada por alguém se sentir constantemente sobrecarregado. 
+
+Ele é resultado de estresse emocional, físico e mental excessivo e prolongado. Em muitos casos, o esgotamento está relacionado ao trabalho.
+
+Os efeitos do Burnout podem prejudicar o emprego, os relacionamentos e a vida pessoal. O esgotamento também reduz a imunidade, tornando a pessoa vulnerável a doenças.
                                
                             </p>
                         </div>
@@ -101,7 +106,7 @@ const Mapa = function () {
                         <div className='Texto'>
                             <p>
                                 <h4>TRANSTORNO ALIMENTAR</h4>
-                               
+                                Uma pessoa com um transtorno alimentar pode começar a comer quantidades menores ou maiores de alimentos, mas em algum momento, o seu desejo de comer menos ou mais vão ficando fora de controle.
                             </p>
                         </div>
                     </div>

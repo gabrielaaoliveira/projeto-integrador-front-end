@@ -9,8 +9,9 @@ type Props = {
 
 const Indice: FunctionComponent<Props> = function (props) {
   return (
-    <div className='Indice' style={{backgroundColor: props.corFundo}}>
-      <span className='Percentual' style={{width: `${props.percentual}%`, backgroundColor: props.corPercentual}}>{props.percentual}%</span>
+    <div className='Indice' style={{backgroundColor: props.corFundo, color: props.corPercentual}}>
+      <span className='Percentual' style={{width: `${props.percentual}%`, backgroundColor: props.corPercentual}}></span>
+      {props.percentual}%
     </div>
   );
 };

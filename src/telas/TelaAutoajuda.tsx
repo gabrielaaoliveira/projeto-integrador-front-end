@@ -3,7 +3,15 @@ import ansiedade2 from '../img/ansiedade2.jpg';
 import ansiedade3 from "../img/ansiedade3.jpg";
 import ansiedade4 from "../img/ansiedade4.jpg";
 import ansiedade5 from "../img/ansiedade5.jpg";
-import ansiedade6 from "../img/ansiedade6.jpg"
+import ansiedade6 from "../img/ansiedade6.jpg";
+
+import panico1 from "../img/panico1.png";
+import panico2 from "../img/panico2.png";
+import panico3 from "../img/panico3.png";
+import panico4 from "../img/panico4.png";
+import panico5 from "../img/panico5.png";
+import panico6 from "../img/panico6.png";
+
 import Tela from "../componentes/Tela";
 import "./TelaAutoajuda.css";
 
@@ -103,7 +111,7 @@ const TelaAutoajuda = function () {
                 <div className='Mapas'>
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src={ansiedade} alt= "" />
+                            <img src={panico1} alt= "" />
                         </div>
                         <div className='Titulo'>
                         < h4>Como sair da crise de pânico?</h4> 
@@ -117,7 +125,7 @@ const TelaAutoajuda = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src={ansiedade2} alt='' />
+                            <img src={panico2} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Feche os olhos e respire</h4> 
@@ -131,7 +139,7 @@ const TelaAutoajuda = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src={ansiedade3} alt='' />
+                            <img src={panico3} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Se concentre em algum objeto</h4> 
@@ -145,7 +153,7 @@ const TelaAutoajuda = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src={ansiedade4} alt='' />
+                            <img src={panico4} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Lembre-se de uma memória feliz</h4> 
@@ -159,7 +167,7 @@ const TelaAutoajuda = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src={ansiedade5} alt='' />
+                            <img src={panico5} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Sinta um aroma que te tranquilize</h4> 
@@ -173,14 +181,14 @@ const TelaAutoajuda = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src={ansiedade6} alt='' />
+                            <img src={panico6} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Melhorou?</h4> 
                         </div>
                         <div className='Texto'>
                             <p>
-                                Não é fácil passar por uma crise de ansiedade e a constância dela nos leva a refletir sobre buscar uma ajuda profissional para que não afete seu cotidiano e tenha uma vida saudável. Lembre-se que sentir é normal e não esta sozinho nessa! Estamos aqui para te ajudar.
+                                Não é fácil passar por uma crise de pânico e a constância dela nos leva a refletir sobre buscar uma ajuda profissional para que não afete seu cotidiano e tenha uma vida saudável. Lembre-se que sentir é normal e não esta sozinho nessa! Estamos aqui para te ajudar.
                             </p>
                         </div>
                     </div>

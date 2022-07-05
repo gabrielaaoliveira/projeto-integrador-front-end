@@ -1,7 +1,8 @@
 import './Telainicial.css';
 import './Telainicial.css';
 import anaegabi from './static.png';
-import gif from './giphy.gif';
+import banner2 from './banner2.png';
+
 
 
 
@@ -9,13 +10,15 @@ const Telainicial = function () {
     return (
         <>
     <img src={anaegabi } alt="" /> 
-    <img src={gif} alt="loading..." />
+    <img src={banner2} alt="" />
+    
 
     <div className='TelaMapa'>
                 <div className='Mapas'>
                     <div className='Mapa'>
                         <div className='Imagem'>
                             <img src='https://th.bing.com/th/id/OIP.zMff27eoUnwq215CHawl4gHaE9?pid=ImgDet&rs=1' alt='Ansiedade' />
+                        
                         </div>
             
                         <div className='Texto'>
@@ -36,9 +39,8 @@ const Telainicial = function () {
                         </div>
                         <div className='Texto'>
                             <p>
-                                <h4>ESQUIZOFRENIA</h4>
-                               O Brasil tem 1,6 milhões de pessoas que vivem com esquizofrenia nos dias atuais.
-                                  Causando uma perda de qualidade de vida, entre os 15 e 44 anos. É crucial a busca de ajuda com indícios desta condição, mas infelizmente, mais da metade destas pessoas não buscam tratamento especializado.
+                                <h4></h4>
+                               
                             </p>
                         </div>
                     </div>

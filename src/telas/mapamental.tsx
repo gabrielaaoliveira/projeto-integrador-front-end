@@ -1,6 +1,12 @@
 import Indice from '../componentes/Indice';
 import Tela from '../componentes/Tela';
 import './mapamental.css';
+import ansi from "../img/ansi.png";
+import esqui from "../img/esqui.png";
+import depre from "../img/depre.png";
+import toc from "../img/toc.png";
+import bornout from "../img/bornout.png";
+import alimentar from "../img/alimentar.png";
 
 const Mapa = function () {
     return (
@@ -10,7 +16,7 @@ const Mapa = function () {
                 <div className='Mapas'>
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src='https://th.bing.com/th/id/OIP.zMff27eoUnwq215CHawl4gHaE9?pid=ImgDet&rs=1' alt='Ansiedade' />
+                            <img src= {ansi} alt='Ansiedade' />
                         </div>
                         <Indice percentual={9.3} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
@@ -23,7 +29,7 @@ const Mapa = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src='https://cdn.fatimanews.com.br/upload/dn_arquivo/2020/07/noti-cia-1-esquizofrenia.png' alt='Esquizofrenia' />
+                            <img src= {esqui} alt='Esquizofrenia' />
                         </div>
                         <Indice percentual={1.6} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
@@ -40,7 +46,7 @@ const Mapa = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src='https://th.bing.com/th/id/R.d1e42d4832e62201e1f596b850ae0d95?rik=oeoOj58IsINB0Q&riu=http%3a%2f%2fwww.perguntesaude.com%2fwp-content%2fuploads%2f2017%2f01%2fS%C3%ADndrome-do-P%C3%A2nico-1-300x200.jpg&ehk=gTUJen8rXmavYywnj%2foFBqtb%2bhqixJkTXWk77cN7JG4%3d&risl=&pid=ImgRaw&r=0' alt='Depressão' />
+                            <img src= {depre} alt='Depressão' />
                         </div>
                         <Indice percentual={5.8} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
@@ -56,7 +62,37 @@ const Mapa = function () {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src='https://th.bing.com/th/id/OIP.MIP0dAPszZ8ZjlnHc_qRggHaDt?pid=ImgDet&rs=1' alt='TRASTORNO ALIMENTAR' />
+                            <img src= {toc} alt='Transtorno obcessivo-compusivo' />
+                        </div>
+                        <Indice percentual={2.0} corFundo={'#fcc'} corPercentual={'#f00'} />
+                        <div className='Texto'>
+                    
+                        </div>
+                        <div className='Texto'>
+                            <p>
+                                <h4>TOC</h4>
+                               
+                            </p>
+                        </div>
+                    </div>
+                    <div className='Mapa'>
+                        <div className='Imagem'>
+                            <img src={bornout} alt='FOBIA' />
+                        </div>
+                        <Indice percentual={30} corFundo={'#fcc'} corPercentual={'#f00'} />
+                        <div className='Texto'>
+                    
+                        </div>
+                        <div className='Texto'>
+                            <p>
+                                <h4>BORNOUT</h4>
+                               
+                            </p>
+                        </div>
+                    </div>
+                    <div className='Mapa'>
+                        <div className='Imagem'>
+                            <img src= {alimentar} alt='Depressão' />
                         </div>
                         <Indice percentual={4.7} corFundo={'#fcc'} corPercentual={'#f00'} />
                         <div className='Texto'>
@@ -65,21 +101,6 @@ const Mapa = function () {
                         <div className='Texto'>
                             <p>
                                 <h4>TRANSTORNO ALIMENTAR</h4>
-                               
-                            </p>
-                        </div>
-                    </div>
-                    <div className='Mapa'>
-                        <div className='Imagem'>
-                            <img src='https://th.bing.com/th/id/OIP.gfHv0dq954N1qnlCeMoY_wHaE8?pid=ImgDet&rs=1' alt='FOBIA' />
-                        </div>
-                        <Indice percentual={86} corFundo={'#fcc'} corPercentual={'#f00'} />
-                        <div className='Texto'>
-                    
-                        </div>
-                        <div className='Texto'>
-                            <p>
-                                <h4>FOBIA</h4>
                                
                             </p>
                         </div>

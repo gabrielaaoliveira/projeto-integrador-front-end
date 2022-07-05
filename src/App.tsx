@@ -6,6 +6,7 @@ import TelaAutoajuda from './telas/TelaAutoajuda';
 import Mapa from './telas/mapamental';
 import Menu from './componentes/Menu';
 import Telainicial from './componentes/Telainicial';
+import Login from './componentes/Login';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/autoajuda" element={<TelaAutoajuda/>} />
             <Route path="/mapa-mental" element={<Mapa />} />
             <Route path="/Tela" element={<Telainicial />} />
+            <Route path="/Login" element={<Login />} />
           </Routes>
         </BrowserRouter>
     </div>

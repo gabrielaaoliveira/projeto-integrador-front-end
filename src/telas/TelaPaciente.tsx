@@ -1,6 +1,14 @@
 import Tela from "../componentes/Tela";
 import "./TelaAutoajuda.css";
 
+import a1 from "../img/a1.png";
+import a2 from "../img/a2.png";
+import a3 from "../img/a3.png";
+import a4 from "../img/a4.png";
+import a5 from "../img/a5.png";
+import a6 from "../img/a6.png";
+
+
 const TelaPaciente = function() {
     return (
         <Tela>
@@ -9,7 +17,7 @@ const TelaPaciente = function() {
                 <div className='Mapas'>
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src="" alt= "" />
+                            <img src={a3} alt= "" />
                         </div>
                         <div className='Titulo'>
                         < h4>Gabriela Vasconcelos</h4> 
@@ -27,7 +35,7 @@ const TelaPaciente = function() {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src="" alt='' />
+                            <img src={a6} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Ana Souza</h4> 
@@ -44,7 +52,7 @@ const TelaPaciente = function() {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src="" alt='' />
+                            <img src={a4} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Maria Clara Fernandes</h4> 
@@ -61,7 +69,7 @@ const TelaPaciente = function() {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src='' alt='' />
+                            <img src={a1} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>José Castro</h4> 
@@ -78,7 +86,7 @@ const TelaPaciente = function() {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src="" alt='' />
+                            <img src={a2} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Rodrigo Silva</h4> 
@@ -95,7 +103,7 @@ const TelaPaciente = function() {
 
                     <div className='Mapa'>
                         <div className='Imagem'>
-                            <img src="" alt='' />
+                            <img src={a5} alt='' />
                         </div>
                         <div className='Titulo'>
                         < h4>Isaque Mendes</h4> 

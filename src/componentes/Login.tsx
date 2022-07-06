@@ -14,7 +14,6 @@ const Login = function() {
                 <input type={"password"} placeholder="Sua senha" />
                 <br></br>
                 <button>Entrar</button>
-                <p><a href="formulario.html"> Faça seu cadastro! </a> </p>
             </form>
         </Tela>
     

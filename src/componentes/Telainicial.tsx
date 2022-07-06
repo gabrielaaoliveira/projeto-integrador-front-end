@@ -1,6 +1,6 @@
 import './Telainicial.css';
 import './Telainicial.css';
-import anaegabi from './static.png';
+import anaegabi from './banner3.png';
 import banner2 from './banner2.png';
 
 
@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+<<<<<<< HEAD
 import "./styles.css";
 
 // import required modules
@@ -43,3 +44,15 @@ export default function App() {
     </>
   );
 }
+=======
+   
+            
+                    
+                
+    
+        </>
+    );
+  };
+  
+  export default Telainicial;
+>>>>>>> 166d74c9f1a98c5e2b64d9dd899e5b169193e92c

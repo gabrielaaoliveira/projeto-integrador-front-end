@@ -18,7 +18,7 @@ const TelaPaciente = function() {
                             <p>
                                 Psicóloga clínica -
                                 48652-00 / CRP 
-                                Duração: 50 minutos - Sessão R$75,00
+                                Duração: 50 minutos Sessão R$75,00
                                 _________________________________________
 
                             </p>
@@ -36,7 +36,7 @@ const TelaPaciente = function() {
                             <p>
                             Psicóloga clínica -
                                 19582-00 / CRP 
-                                Duração: 50 minutos - Sessão R$85,00
+                                Duração: 50 minutos Sessão R$85,00
                                 _________________________________________
                             </p>
                         </div>
@@ -53,7 +53,7 @@ const TelaPaciente = function() {
                             <p>
                             Psicóloga clínica -
                                 25842-00 / CRP 
-                                Duração: 50 minutos - Sessão R$95,00
+                                Duração: 50 minutos Sessão R$95,00
                                 _________________________________________
                             </p>
                         </div>
@@ -70,7 +70,7 @@ const TelaPaciente = function() {
                             <p>
                             Psicólogo clínico -
                                 12282-00 / CRP 
-                                Duração: 50 minutos - Sessão R$75,00
+                                Duração: 50 minutos Sessão R$75,00
                                 _________________________________________
                             </p>
                         </div>
@@ -87,7 +87,7 @@ const TelaPaciente = function() {
                             <p>
                             Psicólogo clínico -
                                 58942-00 / CRP 
-                                Duração: 50 minutos - Sessão R$85,00
+                                Duração: 50 minutos Sessão R$85,00
                                 _________________________________________
                             </p>
                         </div>
@@ -104,7 +104,7 @@ const TelaPaciente = function() {
                             <p>
                             Psicólogo clínico -
                                 32652-00 / CRP 
-                                Duração: 50 minutos - Sessão R$95,00
+                                Duração: 50 minutos Sessão R$95,00
                                 _________________________________________
                             </p>
                         </div>

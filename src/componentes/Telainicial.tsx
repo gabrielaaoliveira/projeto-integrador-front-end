@@ -1,6 +1,6 @@
 import './Telainicial.css';
 import './Telainicial.css';
-import anaegabi from './static.png';
+import anaegabi from './banner3.png';
 import banner2 from './banner2.png';
 
 

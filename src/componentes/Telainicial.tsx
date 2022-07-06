@@ -5,54 +5,41 @@ import banner2 from './banner2.png';
 
 
 
+import { Swiper, SwiperSlide } from "swiper/react";
 
-const Telainicial = function () {
-    return (
-        <>
-    <img src={anaegabi } alt="" /> 
-    <img src={banner2} alt="" />
-    
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
-    <div className='TelaMapa'>
-                <div className='Mapas'>
-                    <div className='Mapa'>
-                        <div className='Imagem'>
-                            <img src='https://th.bing.com/th/id/OIP.zMff27eoUnwq215CHawl4gHaE9?pid=ImgDet&rs=1' alt='Ansiedade' />
-                        
-                        </div>
-            
-                        <div className='Texto'>
-                            <p> 
-                                <h4>ANSIEDADE</h4>
-                            No Brasil 9,3% de pessoas sofrem de ansiedade, equivalente á 18 milhões de brasileiros, você não está sozinho nessa!!
-                            </p>
-                        </div>
-                    </div>
+import "./styles.css";
 
-                    <div className='Mapa'>
-                        <div className='Imagem'>
-                            <img src='https://cdn.fatimanews.com.br/upload/dn_arquivo/2020/07/noti-cia-1-esquizofrenia.png' alt='Esquizofrenia' />
-                        </div>
-                       
-                        <div className='Texto'>
-                    
-                        </div>
-                        <div className='Texto'>
-                            <p>
-                                <h4></h4>
-                               
-                            </p>
-                        </div>
-                    </div>
+// import required modules
+import { Navigation, Pagination } from "swiper";
 
-                
-                        </div>
-                    </div>
-            
-            
-    
-        </>
-    );
-  };
-  
-  export default Telainicial;
+export default function App() {
+  return (
+    <>
+      <Swiper
+        autoHeight={true}
+        spaceBetween={20}
+        navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Navigation, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide> s </SwiperSlide>
+        <SwiperSlide>Slide 2</SwiperSlide>
+        <SwiperSlide>Slide 3</SwiperSlide>
+        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide>Slide 5</SwiperSlide>
+        <SwiperSlide>Slide 6</SwiperSlide>
+        <SwiperSlide>Slide 7</SwiperSlide>
+        <SwiperSlide>Slide 8</SwiperSlide>
+        <SwiperSlide>Slide 9</SwiperSlide>
+      </Swiper>
+    </>
+  );
+}

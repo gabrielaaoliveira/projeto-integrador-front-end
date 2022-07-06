@@ -1,5 +1,7 @@
 .img {
    padding: 5px;
+   align-items: center;
+   display: flex;
 }
 
 .TelaMapa {

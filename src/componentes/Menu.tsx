@@ -6,9 +6,8 @@ const Menu = function() {
     return (
         <nav className="Menu">
             <Link to='/mapa-mental' className="MenuItem">Mapa mental</Link>
-            <Link to='/pacientes' className="MenuItem">pacientes</Link>
             <Link to='/autoajuda' className="MenuItem">Auto-ajuda</Link>
-            <Link to='/psicologos' className="MenuItem">psicologos</Link>
+            <Link to='/paciente' className="MenuItem">Psicologos</Link>
             <Link to='/login' className="MenuItem">login</Link>
           
             
